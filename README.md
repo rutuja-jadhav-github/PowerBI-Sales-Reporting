@@ -24,6 +24,7 @@ Business Demand Overview: <br>
 •	Necessary Systems – Power BI, CRM System<br>
 •	Other info – Budgets have been delivered in Excel for 2021<br>
 
+
 ## Data considerations
 I used the Adventure Works sample database supplied by Microsoft [here](https://learn.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver16&tabs=ssms). The workshop which I followed, suggested using [this SQL script](https://github.com/techtalkcorner/Sam...) to update the data. 
 However, the file for budget which was supplied by the workshop host, was for 2021 and 2020. Although I queried the updated Adventure Works data (till 2024) and converted it to .csv, I had to refer to the older version of the .csv files supplied by the author for the actual dashboard build. You can find a copy of the queries (passed on updated data) and .csv files (old data supplied by the host) in the SQL_Queries and Cleaned_Data folders respectively. The Model file contains a view of the relationship model to see the links between the various Dimension and Fact tables.
@@ -34,7 +35,7 @@ However, the file for budget which was supplied by the workshop host, was for 20
 
 
 ## Credits
-Ahmad Ali on Youtube
-Accenture Upskilling
-Client briefs
+Ahmad Ali on Youtube<br>
+Accenture Upskilling<br>
+
 
